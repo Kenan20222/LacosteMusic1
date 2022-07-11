@@ -61,7 +61,7 @@ async def start_(client: Client, message: Message):
         f"""● **Salam 🙋 {message.from_user.mention()} **\n
 ● **Mən səsli söhbətlərdə oxuyan musiqi botam 🥰**
 
-● **Hər hansı bir problemlə qarşılaşsanız @QarabagMmcSupport qrupumuza gəlib yaza bilərsiniz!**
+● **Hər hansı bir problemlə qarşılaşsanız @LionSup qrupumuza gəlib yaza bilərsiniz!**
 
 ● **🕹️ Əmrlər butona basıb bütün əmrləri öyrənin ⬇️**
 """,
@@ -79,10 +79,10 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "📣 Support", url=f"https://t.me/QarabagMmcSupport"
+                        "📣 Support", url=f"https://t.me/LionSup"
                     ),
                     InlineKeyboardButton(
-                        "🇦🇿 Rəsmi", url=f"https://t.me/QarabagMmc"
+                        "🇦🇿 Rəsmi", url=f"https://t.me/LionnProject"
                     ),
                 ],
             ]
@@ -170,8 +170,8 @@ async def new_chat(c: Client, m: Message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📣 Məlumat", url=f"https://t.me/QarabagMmc"),
-                            InlineKeyboardButton("🇹🇷 Dəstək", url=f"https://t.me/QarabagMmcSupport")
+                            InlineKeyboardButton("📣 Məlumat", url=f"https://t.me/LionnProject"),
+                            InlineKeyboardButton("🇹🇷 Dəstək", url=f"https://t.me/LionSup")
                         ],
                         [
                             InlineKeyboardButton("🎙 Asistan", url=f"https://t.me/lionmusiccasistant")
